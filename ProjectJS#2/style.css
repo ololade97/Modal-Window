@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffc0cb;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  display: flex;
+}
+
+.showModal {
+  font-size: 1rem;
+  margin: 1rem 1rem;
+  color: #000000;
+  cursor: pointer;
+  padding: 1.7rem 1.3rem;
+  border-radius: 10rem;
+  background-color: #ffffff;
+}
+
+.modalBox {
+  font-size: 1rem;
+  position: absolute;
+  padding: 0.5rem 0.5rem;
+  top: 130%;
+  width: 25%;
+  background-color: #ffffff;
+}
+
+.closeModal {
+  font-size: 2rem;
+  position: relative;
+  left: 86.9%;
+  background-color: #ffffff;
+  border: none;
+  justify-content: right;
+  cursor: pointer;
+  display: flex;
+}
+
+h1 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
